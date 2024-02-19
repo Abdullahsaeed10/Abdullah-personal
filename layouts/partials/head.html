@@ -13,16 +13,16 @@
 {{ $critical.Content | safeCSS }}
 </style>
 
-{{ $cssBundle := slice }}
+{{ $cssResources := slice }}
 {{ range .Site.Params.plugins.css }}
     {{ if findRE "^http" .URL }}
         <link rel="stylesheet" href="{{ .URL | absURL }}">
     {{ else }}
         {{ $cssFile := resources.Get .URL }}
-        {{ $cssBundle = $cssBundle | append $cssFile }}
+        {{ $cssResources = $cssResources | append $cssFile }}
     {{ end }}
 {{ end }}
-{{ $cssBundle := $cssBundle | resources.Concat "css/bundle.css" }}
+{{ $cssBundle := $cssResources | resources.Concat "css/bundle.css" }}
 
 
 <!-- Purge CSS -->

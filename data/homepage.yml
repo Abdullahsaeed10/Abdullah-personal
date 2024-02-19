@@ -1,9 +1,15 @@
 # showcase
 showcase:
   enable: true
+<<<<<<< HEAD
   title: "Hello, I’m Abdullah."
   subtitle: "Software Developer"
   description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+=======
+  title: "Hello, I’m Cool."
+  subtitle: "Front-End Developer"
+  description: "This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>."
+>>>>>>> 9315361f65e86a189fa634236b3287e622e95afe
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -13,32 +19,39 @@ showcase:
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
-    URL: "https://radity.com/en/contact/"
+    URL: "https://www.adrianmoreno.info/"
 
   socialLinks:
     - icon: "linkedin"
+<<<<<<< HEAD
       URL: "https://www.linkedin.com/in/abdullahsaeed10/"
 
     - icon: "github"
       URL: "https://github.com/Abdullahsaeed10"
+=======
+      URL: "https://www.linkedin.com/in/adrianmoreno/"
+
+    - icon: "github"
+      URL: "https://github.com/zetxek"
+>>>>>>> 9315361f65e86a189fa634236b3287e622e95afe
 
     - icon: "twitter"
-      URL: "https://twitter.com/radity"
+      URL: "https://twitter.com/zetxek"
 
     - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+      URL: "#"
 
     - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+      URL: "#"
 
     - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+      URL: "#"
 
     - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
+      URL: "https://www.instagram.com/zetxek/"
 
     - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
+      URL: "https://www.facebook.com/zetxek/"
 
     - icon: "codepen"
       URL: "#"
@@ -63,7 +76,7 @@ about:
   button:
     icon: "icon-smile-fill"
     btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
   image:
     x: "images/who-am-i/user-picture.png"
     _2x: "images/who-am-i/user-picture@2x.png"
@@ -89,7 +102,7 @@ experience:
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
-    URL: "https://www.linkedin.com/company/radity/"
+    URL: "https://www.linkedin.com/in/adrianmoreno/"
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
