@@ -1,8 +1,8 @@
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Andreas."
-  subtitle: "Front-End Developer"
+  title: "Hello, I’m Abdullah."
+  subtitle: "Software Developer"
   description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
   image:
     x: "images/showcase/showcase.png"
@@ -17,10 +17,10 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "https://www.linkedin.com/in/abdullahsaeed10/"
 
     - icon: "github"
-      URL: "https://github.com/radity"
+      URL: "https://github.com/Abdullahsaeed10"
 
     - icon: "twitter"
       URL: "https://twitter.com/radity"
@@ -209,27 +209,27 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "#"
+    action: "https://formspree.io/f/xzbnrrag"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "(+02) 100 954 7600"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:abdullahsaeedd6@gmail.com">abdullahsaeedd6@gmail.com</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "Cairo<br />Egypt"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
-# newsletter
-newsletter:
-  enable: true
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+# # newsletter
+# newsletter:
+#   enable: true
+#   title: "Newsletter subscription"
+#   success_message: "Successfully subscribed"
+#   error_message: "Error while subscribing."
+#   note: "We'll never share your email with anyone else."
