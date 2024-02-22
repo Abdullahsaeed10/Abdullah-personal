@@ -1,15 +1,10 @@
 # showcase
 showcase:
   enable: true
-<<<<<<< HEAD
   title: "Hello, I’m Abdullah."
   subtitle: "Software Developer"
   description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
-=======
-  title: "Hello, I’m Cool."
-  subtitle: "Front-End Developer"
-  description: "This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>."
->>>>>>> 9315361f65e86a189fa634236b3287e622e95afe
+
   image:
     x: "images/showcase/showcase.png"
     _2x: "images/showcase/showcase@2x.png"
@@ -23,17 +18,10 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-<<<<<<< HEAD
       URL: "https://www.linkedin.com/in/abdullahsaeed10/"
 
     - icon: "github"
       URL: "https://github.com/Abdullahsaeed10"
-=======
-      URL: "https://www.linkedin.com/in/adrianmoreno/"
-
-    - icon: "github"
-      URL: "https://github.com/zetxek"
->>>>>>> 9315361f65e86a189fa634236b3287e622e95afe
 
     - icon: "twitter"
       URL: "https://twitter.com/zetxek"
@@ -222,7 +210,7 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "https://formspree.io/f/xzbnrrag"
+    action: "POST https://formspree.io/f/xzbnrrag"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
